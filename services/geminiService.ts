@@ -16,7 +16,7 @@ export const generateWeatherInsight = async (
   if (!ai) {
     console.warn("Gemini API Key missing");
     return {
-      summary: "AI services are unavailable (Missing API Key).",
+      summary: "Services are unavailable .",
       recommendation: "Please check standard forecasts.",
       hazards: []
     };
